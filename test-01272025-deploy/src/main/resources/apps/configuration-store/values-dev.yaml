@@ -12,4 +12,5 @@ aissemble-configuration-store-chart:
 
 
   persistentVolumeProperties:
+    enabled: true
     storageType: "custom"
