@@ -11,5 +11,5 @@ aissemble-configuration-store-chart:
         imagePullPolicy: IfNotPresent
 
 
-persistentVolumeProperties:
-  storageType: "local"
+  persistentVolumeProperties:
+    storageType: "local"
