@@ -12,5 +12,4 @@ aissemble-configuration-store-chart:
 
 
   persistentVolumeProperties:
-    enabled: true
-    storageType: "local"
+    storageClass: "local-path"
