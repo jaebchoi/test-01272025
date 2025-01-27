@@ -9,7 +9,3 @@ aissemble-configuration-store-chart:
     deployment:
       image:
         imagePullPolicy: IfNotPresent
-
-
-  persistentVolumeProperties:
-    storageClass: "rancher.io/local-path"
