@@ -12,4 +12,4 @@ aissemble-configuration-store-chart:
 
 
   persistentVolumeProperties:
-    storageClass: "local-path"
+    storageClass: "rancher.io/local-path"
