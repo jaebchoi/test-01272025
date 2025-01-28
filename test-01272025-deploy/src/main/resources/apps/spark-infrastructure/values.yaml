@@ -45,9 +45,7 @@ aissemble-hive-metastore-service-chart:
       password: hive
 
   configMap:
-    metadata:
-      labels:
-        configStore: enabled
+    configStore: enabled
     metastoreServiceConfig:
       properties:
         - name: javax.jdo.option.ConnectionUserName
